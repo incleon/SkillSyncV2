@@ -38,12 +38,20 @@ st.markdown("""
 <style>
     .main-header {
         font-size: 3rem;
-        background: linear-gradient(90deg, #12063b 0%, #09555c 100%);
+        background: linear-gradient(90deg, #ff4b4b 0%, #ff6b6b 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
         font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-tagline {
+        font-size: 1.2rem;
+        color: #666;
+        text-align: center;
         margin-bottom: 2rem;
+        font-style: italic;
     }
 
     .metric-card {
@@ -229,8 +237,8 @@ def main():
     initialize_session_state()
 
     # Header
-    st.markdown('<h1 class="main-header">🔍 SkillSync - AI Resume Matcher</h1>', unsafe_allow_html=True)
-    st.markdown("### *Where Job Descriptions and Resumes Click!*")
+    st.markdown('<h1 class="main-header">SkillSync</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="main-tagline">Where JDs and Resumes Blink ;)</p>', unsafe_allow_html=True)
 
     # Sidebar
     st.sidebar.title("⚙️ Configuration")
