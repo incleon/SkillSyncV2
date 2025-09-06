@@ -681,7 +681,7 @@ def main():
 
         # Header
         st.markdown('<h1 class="main-header">SkillSync V2</h1>', unsafe_allow_html=True)
-        st.markdown('<p class="main-tagline">AI-Powered Resume-Job Matching System</p>', unsafe_allow_html=True)
+        st.markdown('<p class="main-tagline">Where JDs and Resumes Blink</p>', unsafe_allow_html=True)
 
         # System status
         display_system_status()
