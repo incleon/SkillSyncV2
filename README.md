@@ -1,5 +1,5 @@
 # SkillSync V2 🔍
-### *Where Job Descriptions and Resumes Sync*
+### *Where Job Descriptions and Resumes Blink ;)*
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
@@ -128,16 +128,21 @@ The application will open in your browser at http://localhost:8501
 
 ### Architecture
 SkillSyncV2/
+## Architecture
+
+```bash
+SkillSyncV2/
 ├── streamlit_app.py
 ├── requirements.txt
 ├── data/
-│ └── skillsync.db
+│   └── skillsync.db
 └── utils/
-├── database_manager.py
-├── ml_matcher.py
-├── nlp_processor.py
-├── semantic_matcher.py
-└── text_extractor.py
+    ├── database_manager.py
+    ├── ml_matcher.py
+    ├── nlp_processor.py
+    ├── semantic_matcher.py
+    └── text_extractor.py
+```
 
 
 ### Pipeline
