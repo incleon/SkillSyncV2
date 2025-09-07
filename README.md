@@ -7,7 +7,7 @@
 ![NLP](https://img.shields.io/badge/NLP-spaCy-green.svg)
 ![License](https://img.shields.io/badge/License-Student_Project-yellow.svg)
 
-**🌐 Live Demo:** [https://skillsyncakt.streamlit.app/](https://skillsyncakt.streamlit.app/)
+**🌐 Live Demo:** [Click Here](https://skillsyncakt.streamlit.app/)
 
 ---
 
@@ -170,10 +170,8 @@ Composite Score = (
 ---
 
 ## 🏆 Credits & Acknowledgments
-**Developer**: [Your Name]  
-📧 your.email@example.com  
-🔗 [LinkedIn Profile]  
-🐱 [GitHub Profile]  
+**Developer**: Aditya Kumar Tiwari 
+🔗 [[LinkedIn Profile](https://www.linkedin.com/in/akt11/)]   
 
 **Thanks to**: Streamlit, spaCy, Scikit-learn, Hugging Face, Open Source  
 
